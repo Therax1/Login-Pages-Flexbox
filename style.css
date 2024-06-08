@@ -1,0 +1,161 @@
+*{
+    font-family: "Poppins", sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+body{
+    background: url('img/background/img.jpg');
+    background-size: cover;
+    margin: 0;
+    height: 100vh;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    font-weight: bold;
+    padding-bottom: 0;
+}
+
+.navbar ul.brand a{
+    font-size: 29px;
+    color: rgb(255, 115, 0);
+}
+.navbar ul.nav-content{
+    display: flex;
+    width: 50%;
+    padding: 0;
+    justify-content: space-between;
+}
+.navbar ul.nav-content a{
+    color: #fff;
+}
+.navbar ul.nav-content li.item6{
+    border: 1px solid #fff;
+    border-radius: 3px;
+}
+.search{
+    margin-right: 90px;
+    margin-bottom: 0;
+}
+
+.search input{
+    outline: none;
+    border: 1px solid orange;
+    border-radius: 5px;
+    height: 40px;
+    width: 250px;
+    background-color: transparent;
+    font-size: 17px;
+}
+.search input::placeholder{
+    color: #fff;
+}
+
+.search button{
+    height: 40px;
+    border: 1px solid orange;
+    border-radius: 5px;
+    background-color: orange;
+    align-self: baseline;
+}
+
+main{
+    color: #fff;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    margin-top: 100px;
+}
+.main-content .div-login{
+    grid-column: 9 / 12;
+    background-color: #000000ae;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 580px;
+    border-radius: 15px;
+}
+.main-content .div-login h3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 300px;
+    height: 50px;
+    background-color: #fff;
+    color: orange;
+    font-size: 23px;
+    border: none;
+    border-radius: 15px;
+}
+
+.main-content .div-login form{
+    display: flex;
+    flex-direction: column;
+    /* border: 3px solid green; */
+    width: 300px;
+    height: 430px;
+}
+.main-content .div-login form input{
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid;
+    border-color: orange;
+    font-size: 18px;
+    margin: 10px 0px;
+}
+.main-content .div-login form input::placeholder{
+    color: #fff;
+}
+
+.main-content .div-login form button{
+    background-color: rgb(255, 68, 0);
+    border: none;
+    font-weight: bold;
+    height: 50px;
+    font-size: 20px;
+    border-radius: 10px;
+}
+.main-content .div-login form p{
+    text-align: center;
+}
+.main-content .div-login form p a.sign{
+    color: rgb(255, 94, 0);
+}
+.main-content .div-login form .div-icons{
+    text-align: center;
+    font-size: 29px;
+}
+.main-content .div-login form .div-icons i{
+    color: #fff;
+}
+
+/* Le contene bizarre là  */
+
+.main-content .content{
+    grid-column: 2 / 8;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.main-content .content h3{
+    font-size: 50px;
+    margin: 0;
+}
+.main-content .content p{
+    margin-top: 0;
+    font-size: 20px;
+}
+
+.main-content .content button{
+    height: 60px;
+    width: 160px;
+    border-radius: 10px;
+    border: none;
+    font-size: 18px;
+    background-color: orangered;
+}
+.main-content .content h3 span.dev{
+    color: rgb(255, 89, 0);
+}
