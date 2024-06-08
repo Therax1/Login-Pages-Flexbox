@@ -100,10 +100,12 @@ main{
 .main-content .div-login form input{
     background-color: transparent;
     border: none;
+    outline: none;
     border-bottom: 2px solid;
     border-color: orange;
     font-size: 18px;
     margin: 10px 0px;
+    color: #fff;
 }
 .main-content .div-login form input::placeholder{
     color: #fff;
@@ -116,6 +118,7 @@ main{
     height: 50px;
     font-size: 20px;
     border-radius: 10px;
+    cursor: pointer;
 }
 .main-content .div-login form p{
     text-align: center;
@@ -155,6 +158,7 @@ main{
     border: none;
     font-size: 18px;
     background-color: orangered;
+    cursor: pointer;
 }
 .main-content .content h3 span.dev{
     color: rgb(255, 89, 0);
